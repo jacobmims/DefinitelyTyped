@@ -58,6 +58,11 @@ declare namespace JQueryUI {
          * The item selected from the menu, if any. Otherwise the property is null
          */
         item?: any;
+		
+		/**
+		 * Content array filled for the response event. Otherwise, property is null.
+		 */
+		content?: Array<object>;
     }
 
     interface AutocompleteEvent {
